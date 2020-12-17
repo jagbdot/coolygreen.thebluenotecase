@@ -137,6 +137,14 @@ em {
     line-height: 17px;
 }
 
+.frame__title a{
+	color: black;
+}
+
+.frame__title a:hover{
+	color: #edbc64;
+}
+
 .frame__links {
 	margin: 0.35rem 0 0 0;
 }
@@ -281,7 +289,7 @@ em {
 
 @media screen and (min-width: 53em) {
 	.frame {
-		position: absolute;
+		position: fixed;
 		text-align: left;
 		top: 0;
 		left: 0;
@@ -696,6 +704,7 @@ em {
 
 	.content-description {
 	    margin-bottom: 25px;
+	    padding: 0 1em;
 	}
 
 	.double-link {
